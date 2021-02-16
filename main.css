@@ -55,24 +55,39 @@ body {
 
     font-family: 'Manrope', sans-serif;
     background-color: var(--Very-Pale-Blue);
-    padding: 15.5rem;
+    padding: 10.5rem;
+    background-image: url(/images/pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: center 30%, left 15%;
 
 }
 
 .headline h1 {
 
-    font-size:2.8rem;
+    font-size:2.6rem;
     color: var(--Dark-Desaturated-Blue);
     text-align:center;
 
 
 }
 
+.headline p {
+
+    font-size:1.5rem;
+    color: var(--Grayish);
+    text-align: center;
+    padding-top:5px;
+
+}
+
 .box {
 
-
-max-width:540px;
-
+    margin-top:6rem;
+    padding-top: 3rem;
+    margin:0 auto;
+    margin-top:6rem;
+    max-width:540px;
+    background-color: white;
 }
 
 *,
