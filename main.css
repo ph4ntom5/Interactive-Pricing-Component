@@ -6,7 +6,7 @@
 - Strong Cyan (Slider Backround): hsl(174, 86%, 45%)
 - Light Grayish Red (Discount Background): hsl(14, 92%, 95%)
 - Light Red (Discount Text): hsl(15, 100%, 70%)
-- Pale Blue (CTA Text): hsl(226, 100%, 87%)
+- Pale Blue (CTA Text): hsl(226, 100%, 87%)  
 
 ### Neutral
 
@@ -52,13 +52,12 @@ margin:0;
 
 body {
 
-
     font-family: 'Manrope', sans-serif;
     background-color: var(--Very-Pale-Blue);
-    padding: 10.5rem;
+    padding: 10.5rem 0 0 0;
     background-image: url(/images/pattern-circles.svg);
     background-repeat: no-repeat;
-    background-position: center 30%, left 15%;
+    background-position: center 10%, left 15%;
     
 
 }
@@ -77,20 +76,25 @@ body {
     font-size:1.5rem;
     color: var(--Grayish);
     text-align: center;
-    padding-top:5px;
+    padding-top:10px;
+    line-height: 2.6rem;
+    
 
 }
 
 .box {
 
-    margin-top:6rem;
+    display:block;
     padding: 3rem 3rem 3rem 3rem;
-    margin:0 auto;
-    margin-top:6rem;
-    max-width:540px;
+    margin: 8rem auto 5.5rem;
+    border-radius:1.2rem;
+    max-width:87%;
     height:100%;
     background-color: white;
+
 }
+
+
 
 .box h1 {
 
@@ -100,11 +104,151 @@ body {
     font-weight: 400;
     text-align:center;
     padding: 0 0 2rem 0;
+    margin-top:2rem;
+    
 
 
 }
 
+.box span {
 
+
+    padding-right:.5rem;
+
+}
+
+/* Top Slider Container */ 
+
+.slider-container {
+
+
+    display:block;
+    width:100%;
+    text-align: center;
+    
+    }
+    
+    .slider-container .slider {
+    
+    
+    width:100%;
+    
+    }
+
+    /* End of Top Slider Container*/
+
+
+.box p {
+
+text-align: center;
+font-size:1.8rem;
+font-weight: 600;
+color: var(--Grayish);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top:2rem;
+
+
+}
+
+.box p span {
+
+
+    font-size:3.8rem;
+    font-weight:700;
+    padding-right: 1rem;
+    color: var(--Dark-Desaturated-Blue);
+    
+}
+
+.billing-container {
+
+display:flex;
+justify-content: center;
+flex-direction: row;
+margin:2rem 0 2rem 0;
+
+
+}
+
+.monthly-slider {
+
+
+    display:flex;
+    flex-direction: row;
+
+
+}
+
+.monthly-slider p {
+
+font-size: 1.5rem;
+
+}
+
+div .year-bill {
+
+
+font-size: 1rem;
+color:var(--Grayish);
+
+}
+
+.year-bill span {
+
+
+font-size:1.2rem;
+padding:.4rem 1rem .4rem 1rem;
+border-radius:1.4rem;
+margin-left:.5rem;
+color:var(--Light-Red);
+background-color: var(--Light-Grayish-Red);
+
+}
+
+hr {
+
+    margin:3rem -3rem 2rem -3rem;
+    opacity: .1;
+
+}
+
+.Features {
+
+display:flex;
+justify-content: center;
+
+}
+
+.Features ul {
+
+list-style: url(./images/icon-check.svg);
+
+}
+
+.Features ul li {
+
+    padding:.8rem;
+    font-size:1.5rem;
+    color: var(--Grayish);
+    
+
+}
+
+button {
+
+margin:2rem auto;
+display:block;
+padding: 2rem 7rem 2rem 7rem;
+border-radius:4rem;
+background-color: var(--Dark-Desaturated-Blue);
+color: var(--Pale-Blue);
+font-weight: 600;
+letter-spacing:.1rem;
+border:none;
+
+}
 
 *,
 *::before,
@@ -112,9 +256,14 @@ body {
 box-sizing: border-box;
 }
 
-.attribution {
+@media (min-width: 600px) {
 
-    margin-top: 1rem;
+    .box {
+        max-width:540px;
+        margin: 5.6875rem auto 8.5625rem;
+        padding: 2.5rem 3rem 2rem;
+
+    }
 
 
 }
