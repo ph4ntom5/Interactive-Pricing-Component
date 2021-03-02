@@ -54,14 +54,14 @@
       <div class="billing-container">
         <div class="monthly-slider">
           <p>Monthly Billing</p>
-          <div class="billing-slider">
-            <input type="checkbox" id="toggle" name="billing" />
-            <label for="toggle">Toggle</label>
-          </div>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider-round"></span>
+          </label>
         </div>
         <div class="year-bill">
           <p>Yearly Billing</p>
-          <span>-25%</span>
+          <span>-25%<span class="discount-text">discount</span></span>
         </div>
       </div>
       <hr />
@@ -71,9 +71,8 @@
           <li>100% data ownership</li>
           <li>Email reports</li>
         </ul>
+        <button class="trial-btn" href="#">Start my trial</button>
       </div>
-
-      <button class="trial-btn" href="#">Start my trial</button>
     </div>
   </body>
 </html>
