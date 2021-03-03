@@ -53,7 +53,6 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   background-repeat: no-repeat;
   background-position: center 8rem, center 0rem;
 }
@@ -289,9 +288,11 @@ hr {
   list-style: url(./images/icon-check.svg);
   list-style-position: inside;
   text-align: center;
+  justify-content: center;
+  padding-inline-start: 0rem;
 }
 
-.Features ul li {
+.Features li {
   padding: 0.8rem;
   font-size: 1.5rem;
   color: var(--Grayish);
@@ -324,6 +325,10 @@ button:hover {
   box-sizing: border-box;
 }
 
+.slider-container h1 span {
+  width: 100%;
+}
+
 @media (min-width: 600px) {
   .box {
     max-width: 540px;
@@ -333,7 +338,10 @@ button:hover {
 
   .Features {
     display: flex;
-    justify-content: center;
+  }
+
+  .Features ul {
+    text-align: left;
   }
 
   .yearly-bill span {
@@ -353,5 +361,32 @@ button:hover {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
+  }
+
+  .slider-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .slider-container h1 {
+    order: 1;
+    width: 50% !important;
+    top: 1rem;
+    padding: 2rem;
+  }
+
+  .price {
+    order: 2;
+    width: 50%;
+  }
+
+  .slider {
+    order: 3;
+    width: 100%;
+    display: block;
+  }
+
+  button {
+    margin-right: 0rem;
   }
 }
