@@ -23,14 +23,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Interactive-Pricing-Component-Screenshot.png)
+![](./images/Interactive-Pricing-Component-Screenshot.jpg)
 
 Desktop layout screenshot.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ph4ntom5/Interactive-Pricing-Component)
-- Live Site URL: [Add live site URL here](https://priceless-wing-ee0ae6.netlify.app/)
+- Solution URL: [Github Rep.](https://github.com/ph4ntom5/Interactive-Pricing-Component)
+- Live Site URL: [Live version](https://priceless-wing-ee0ae6.netlify.app/)
 
 ### Built with
 
@@ -42,5 +42,5 @@ Desktop layout screenshot.
 
 ## Author
 
-- Website - [Add your name here](https://www.tomsweb.site)
-- Twitter - [@yourusername](https://www.twitter.com/tomsdesign_)
+- Website - [My Portfolio](https://www.tomsweb.site)
+- Twitter - [@tomsdesign\_](https://www.twitter.com/tomsdesign_)
