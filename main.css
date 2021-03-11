@@ -73,11 +73,12 @@ body {
 
 .box {
   display: block;
-  padding: 3rem 3rem 3rem 3rem;
+  padding: 2rem;
   margin: 8rem auto 5.5rem;
   border-radius: 1.2rem;
-  max-width: 87%;
+  max-width: 95%;
   height: 100%;
+  box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.152073);
   background-color: white;
 }
 
@@ -104,7 +105,11 @@ body {
   height: 12px;
   border-radius: 8px;
   outline: none;
-  background-color: var(--Light-Grayish-Blue);
+  background: linear-gradient(
+    to right,
+    var(--Soft-Cyan) 0 var(--value),
+    var(--Light-Grayish-Blue) 0 100%
+  );
 }
 
 .slider::-webkit-slider-thumb {
