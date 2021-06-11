@@ -34,7 +34,7 @@ Desktop layout screenshot.
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
 - Vanilla Javascript
 - Flexbox
