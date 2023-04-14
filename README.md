@@ -36,7 +36,7 @@ Desktop layout screenshot.
 
 - HTML5 markup
 - CSS custom properties
-- Vanilla Javascript
+- TypeScript
 - Flexbox
 - Mobile-first workflow
 
