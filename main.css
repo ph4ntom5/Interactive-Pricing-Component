@@ -36,6 +36,8 @@
 
   --value: 50%;
   font-size: 62.5%;
+  box-sizing: border-box;
+
 }
 
 body,
@@ -89,6 +91,7 @@ body {
   text-align: center;
   padding: 0 0 2rem 0;
   margin-top: 2rem;
+  margin-left:-2rem;
 }
 
 .box span {
@@ -307,8 +310,10 @@ hr {
   display: none;
 }
 
-button {
+.trial-btn{
   margin: 4rem auto;
+  position:relative;
+  left:0rem;
   display: block;
   padding: 15px 50px 15px 50px;
   border-radius: 4rem;
@@ -318,6 +323,7 @@ button {
   letter-spacing: 0.1rem;
   border: none;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 button:hover {
@@ -393,5 +399,10 @@ button:hover {
 
   button {
     margin-right: 0rem;
+    
+  }
+  .trial-btn{
+    left:4rem;
+    
   }
 }
