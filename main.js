@@ -1,12 +1,13 @@
-var slider = document.querySelector("input[type=range]");
-var toggle = document.querySelector("input[type=checkbox]");
-var pageviews = document.querySelector(".box span");
-var price = document.querySelector(".price span");
-var priceAmount = 16;
+"use strict";
+const slider = document.querySelector("input[type=range]");
+const toggle = document.querySelector("input[type=checkbox]");
+const pageviews = document.querySelector(".box span");
+const price = document.querySelector(".price span");
+let priceAmount = 16;
 toggle.addEventListener("change", function () {
     price.innerHTML = "$" + calculatePrice(priceAmount);
 });
-slider.addEventListener("input", function () {
+slider.addEventListener("input", () => {
     if (slider.value == "0") {
         pageviews.innerHTML = "10k";
         priceAmount = 8;
