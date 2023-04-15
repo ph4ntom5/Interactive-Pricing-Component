@@ -21,54 +21,60 @@
     <style></style>
   </head>
   <body>
-    <div class="headline">
-      <h1>Simple, traffic-based pricing</h1>
-      <p>
-        Sign-up for our 30-day trial.<br />
-        No credit card required.
-      </p>
-    </div>
-
-    <div class="box">
-      <div class="slider-container">
-        <h1><span>100K</span> PAGEVIEWS</h1>
-        <div class="break"></div>
-        <input
-          name="slider"
-          type="range"
-          min="0"
-          max="100"
-          step="25"
-          value="50"
-          class="slider"
-          id="myRange"
-        />
-        <p class="price"><span>$16.00</span> / month</p>
+    <main role="main">
+      <div class="headline">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>
+          Sign-up for our 30-day trial.<br />
+          No credit card required.
+        </p>
       </div>
-
-      <div class="billing-container">
-        <div class="monthly-slider">
-          <p>Monthly Billing</p>
-          <label class="switch">
-            <input type="checkbox" />
-            <span class="slider-round"></span>
-          </label>
+  
+      <div class="box">
+        <div class="slider-container">
+          <h1><span>100K</span> PAGEVIEWS</h1>
+          <div class="break"></div>
+            <label for="myRange">
+              <input
+            name="slider"
+            type="range"
+            min="0"
+            max="100"
+            step="25"
+            value="50"
+            class="slider"
+            id="myRange"
+          />
+            </label>
+          
+          <p class="price"><span>$16.00</span> / month</p>
         </div>
-        <div class="year-bill">
-          <p>Yearly Billing</p>
-          <span>-25%<span class="discount-text">discount</span></span>
+  
+        <div class="billing-container">
+          <div class="monthly-slider">
+            <p>Monthly Billing</p>
+            <label for="checkbox" class="switch">
+              <input type="checkbox" id="checkbox"/>
+              <span class="slider-round"></span>
+            </label>
+          </div>
+          <div class="year-bill">
+            <p>Yearly Billing</p>
+            <span>-25%<span class="discount-text">discount</span></span>
+          </div>
+        </div>
+        <hr />
+        <div class="Features">
+          <ul>
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+          <button class="trial-btn">Start my trial</button>
         </div>
       </div>
-      <hr />
-      <div class="Features">
-        <ul>
-          <li>Unlimited websites</li>
-          <li>100% data ownership</li>
-          <li>Email reports</li>
-        </ul>
-        <button class="trial-btn" href="https://priceless-wing-ee0ae6.netlify.app/">Start my trial</button>
-      </div>
-    </div>
+    </main>
+    
     <script src="main.js"></script>
   </body>
 </html>
